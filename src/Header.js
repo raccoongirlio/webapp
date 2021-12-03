@@ -17,7 +17,7 @@ function Header(){
           <div className="top-menu">
             <a href="#" className="logo"><img src={i_logo} alt="img/logo.png" /></a>
             <ul className="main-menu">
-              <li><a href="/">Home</a></li>
+              <li><a href="/" class="active">Home</a></li>
               <li><a href="#">Mystery Box</a></li>
               <li><a href="#">Airdrop</a></li>
               <li><a href="/token">The Token</a></li>
