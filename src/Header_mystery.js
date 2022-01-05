@@ -11,7 +11,7 @@ import fade from "./img/fade.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-function Header(){
+function Header_mystery(){
 
   useEffect(() => {
     Aos.init({duration: 1000});
@@ -24,8 +24,8 @@ function Header(){
           <div className="top-menu">
             <a href="#" className="logo"><img src={i_logo} alt="img/logo.png" /></a>
             <ul className="main-menu">
-              <li><a href="/" class="active">Home</a></li>
-              <li><a href="/mystery">Mystery Box</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/mystery" class="active">Mystery Box</a></li>
               <li><a href="#">Airdrop</a></li>
               <li><a href="/token">The Token</a></li>
               <li><a href="#" className="disabled">Marketplace</a></li>
@@ -98,4 +98,4 @@ function Header(){
     )
 }
 
-export default Header;
+export default Header_mystery;

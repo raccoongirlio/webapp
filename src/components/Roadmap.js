@@ -1,7 +1,7 @@
 import React from 'react';
 import bg_fade from '../img/bg-fade.png';
 import bg_circle from '../img/bg-circle.png';
-import moon_girl from '../img/moon-girl.png';
+import moon from '../img/moon.png';
 
 
 
@@ -86,7 +86,7 @@ const Roadmap = () => {
           </div>
         </div>
         <div className="moon-girl">
-          <img src={moon_girl} alt="img/moon-girl.png" />
+          <img src={moon} alt="img/moon.png" />
         </div>
       </section>
 

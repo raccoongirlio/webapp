@@ -1,6 +1,12 @@
 import React, { useEffect } from "react";
 import i_logo from "./img/logo.png";
 import i_wallet from "./img/icon-wallet.png";
+import i_facebook from "./img/icon-facebook.png";
+import i_instagram from "./img/icon-instagram.png";
+import i_youtube from "./img/icon-youtube.png";
+import i_twitter from "./img/icon-twitter.png";
+import i_telegram from "./img/icon-telegram.png";
+import i_robot from "./img/icon-robot.png";
 import fade from "./img/fade.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -8,20 +14,21 @@ import "aos/dist/aos.css";
 function Header_token(){
 
   useEffect(() => {
-    Aos.init({duration: 1500});
+    Aos.init({duration: 1000});
 }, []);
 
     return (
+      <div>
         <header>
         <div className="container-header">
           <div className="top-menu">
             <a href="#" className="logo"><img src={i_logo} alt="img/logo.png" /></a>
             <ul className="main-menu">
               <li><a href="/">Home</a></li>
-              <li><a href="#">Mystery Box</a></li>
+              <li><a href="/mystery">Mystery Box</a></li>
               <li><a href="#">Airdrop</a></li>
-              <li><a href="/token" class="active">The Token</a></li>
-              <li><a href="#">Marketplace</a></li>
+              <li><a href="/token"  class="active">The Token</a></li>
+              <li><a href="#" className="disabled">Marketplace</a></li>
               <li><a href="#" className="disabled">Play to earn</a></li>
             </ul>
             <div className="control-zone">
@@ -52,6 +59,42 @@ function Header_token(){
           </div>
         </div>
       </header>
+      <div className="burger-menu">
+      <ul>
+        <li><a href="#" className="active">Home</a></li>
+        <li><a href="#">Mystery Box</a></li>
+        <li><a href="#">Airdrop</a></li>
+        <li><a href="#">The Token</a></li>
+        <li><a href="#">Marketplace</a></li>
+        <li><a href="#" className="disabled">Play to earn</a></li>
+      </ul>
+      <div className="menu-bottom-box">
+        <a href="#" className="price-box mobile-price-box">
+          $1 - 192.40M RACCOON
+        </a>
+      </div>
+      <div className="link-social">
+        <a href="#">
+          <img src={i_facebook} alt="img/icon-facebook.png" />
+        </a>
+        <a href="#">
+          <img src={i_instagram} alt="img/icon-instagram.png" />
+        </a>
+        <a href="#">
+          <img src={i_youtube} alt="img/icon-youtube.png" />
+        </a>
+        <a href="#">
+          <img src={i_twitter} alt="img/icon-twitter.png" />
+        </a>
+        <a href="#">
+          <img src={i_telegram} alt="img/icon-telegram.png" />
+        </a>
+        <a href="#">
+          <img src={i_robot} alt="img/icon-robot.png" />
+        </a>
+      </div>
+    </div>
+  </div>
     )
 }
 
