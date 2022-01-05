@@ -195,6 +195,7 @@ header .container-header .top-menu {
 	align-items: center;
 	justify-content: flex-end;
 	padding-right: 40px;
+	padding-top: 120px;
 }
 
 .section-top .bg-overlay img.bg-img {
@@ -261,6 +262,7 @@ header .container-header .top-menu {
 
 .content-box {
 	color: #fff;
+	margin-bottom: 140px;
 }
 
 .content-box h2 {
@@ -556,6 +558,7 @@ header .container-header .top-menu {
 	padding: 16px;
 	text-align: center;
 	margin-bottom: 30px;
+	font-weight: 600;
 	color: #C0C0C0;
 }
 
@@ -722,6 +725,10 @@ footer {
 	font-weight: 700;
 	color: #A00025;
 	margin: 0;
+}
+
+.donate-girl {
+	width: 66px;
 }
 
 /*zzzxxx*/

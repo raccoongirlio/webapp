@@ -38,6 +38,14 @@ $(function() {
 
 });
 
+function increment() {
+    document.getElementById('mint-number').stepUp();
+}
+
+function decrement() {
+	document.getElementById('mint-number').stepDown();
+}
+
 $(window).on('load', function(){
 	var swiper = new Swiper(".card-swiper", {
 	 	slidesPerView: 4,

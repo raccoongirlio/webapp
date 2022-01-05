@@ -206,7 +206,7 @@
 	position: absolute;
 	z-index: 3;
 	left: 0;
-	bottom: 32px;
+	bottom: 120px;
 	max-width: 330px;
 }
 
@@ -582,6 +582,7 @@
 	.moon-girl {
 		position: relative;
 		left: 0;
+		bottom: 0;
 	}
 
 	.road-map-title h2 {
