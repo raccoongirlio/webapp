@@ -1,7 +1,7 @@
 import React from 'react';
 import i_facebook from "./img/icon-facebook.png";
 import i_instagram from "./img/icon-instagram.png";
-import i_youtube from "./img/icon-youtube.png";
+import i_discord from "./img/icon-discord.png";
 import i_twitter from "./img/icon-twitter.png";
 import i_telegram from "./img/icon-telegram.png";
 import i_robot from "./img/icon-robot.png";
@@ -25,12 +25,12 @@ function Footer(){
                 </ul>
               </div>
               <div className="link-social">
-                <a href="#" target="_blank"><img src={i_facebook} alt="facebook" /></a>
-                <a href="#" target="_blank"><img src={i_instagram} alt="img/icon-instagram.png" /></a>
-                <a href="#" target="_blank"><img src={i_youtube} alt="img/icon-youtube.png" /></a>
-                <a href="#" target="_blank"><img src={i_twitter} alt="img/icon-twitter.png" /></a>
-                <a href="#" target="_blank"><img src={i_telegram} alt="img/icon-telegram.png" /></a>
-                <a href="#" target="_blank"><img src={i_robot} alt="img/icon-robot.png" /></a>
+                <a href="https://www.facebook.com/Raccoongirl-NFT-112073641356707" target="_blank"><img src={i_facebook} alt="facebook" /></a>
+                <a href="#" target="_blank"><img src={i_instagram} alt="instagram" /></a>
+                <a href="https://discord.gg/Rmpp8D8q" target="_blank"><img src={i_discord} alt="discord" /></a>
+                <a href="https://twitter.com/RaccoonGirlnft" target="_blank"><img src={i_twitter} alt="twitter" /></a>
+                <a href="https://t.me/nftraccoongirl" target="_blank"><img src={i_telegram} alt="telegram" /></a>
+                <a href="#" target="_blank"><img src={i_robot} alt="reddit" /></a>
               </div>
             </div>
           </div>
