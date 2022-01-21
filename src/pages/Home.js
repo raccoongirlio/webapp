@@ -21,7 +21,7 @@ const HomePage = () => {
         <div data-aos="fade-up"><Playtoearn /></div>
         <div data-aos="fade-up"><Review /></div>
         <div data-aos="fade-up"><Stats /></div>
-        <div data-aos="fade-up"><Donate /></div>
+        <div><Donate /></div>
         <Footer />
         </div>
     )

@@ -22,7 +22,7 @@ const TokenPage = () => {
         <div data-aos="fade-up"><Roadmap /></div>
         <div data-aos="fade-up"><Howto /></div>
         <div data-aos="fade-up"><Faq /></div>
-        <div data-aos="fade-up"><Donate /></div>
+        <div><Donate /></div>
         <Footer />
         </div>
     )
