@@ -14,7 +14,7 @@ import "aos/dist/aos.css";
 function Header_mystery(){
 
   useEffect(() => {
-    Aos.init({duration: 1000});
+    Aos.init({duration: 500});
 }, []);
 
     return (
