@@ -1,6 +1,6 @@
 import React from "react";
 import qr from "../img/qr-code.png";
-import rac_girl from "../img/raccoon-girls.png";
+//import rac_girl from "../img/raccoon-girls.png";
 import i_read from "../img/icon-readmore.png";
 
 
@@ -17,7 +17,6 @@ const Donate = () => {
               </p>
             </div>
             <div className="donate-content">
-              <img src={rac_girl} alt="img/raccoon-girls.png" />
               <h3>DONATE TO RACCOONGIRL DEVS</h3>
               <p>
                 DONATE If you like our work, and would like to support us, you can send your donation to this address. thank you very much for your support! 
